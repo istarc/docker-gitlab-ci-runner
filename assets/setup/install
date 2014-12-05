@@ -62,10 +62,10 @@ stderr_logfile=/var/log/supervisor/%(program_name)s.log
 EOF
 
 # purge build dependencies
-apt-get purge -y --auto-remove gcc g++ patch make \
-  libc6-dev ruby2.1-dev zlib1g-dev libyaml-dev libssl-dev \
-  libgdbm-dev libreadline-dev libncurses5-dev libffi-dev \
-  libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev
+#apt-get purge -y --auto-remove gcc g++ patch make \
+#  libc6-dev ruby2.1-dev zlib1g-dev libyaml-dev libssl-dev \
+#  libgdbm-dev libreadline-dev libncurses5-dev libffi-dev \
+#  libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev
 
 # cleanup
 rm -rf /var/lib/apt/lists/*
