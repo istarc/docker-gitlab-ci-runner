@@ -12,7 +12,7 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E1DF1F24 \
       zlib1g libyaml-0-2 libssl1.0.0 \
       libgdbm3 libreadline6 libncurses5 libffi6 \
       libxml2 libxslt1.1 libcurl3 libicu52 \
-      build-essential openocd qemu-system-arm symlinks expect gcc-arm-none-eabi=4.8.4.2014q3-0trusty11 \
+      build-essential openocd qemu-system-arm symlinks expect gcc-arm-none-eabi \
 && gem install --no-document bundler \
 && rm -rf /var/lib/apt/lists/* # 20150323
 
